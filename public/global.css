@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.dark-theme {
+  --plain-color: #303030;
+  --slight-off: #232323;
+  --background-color: #171717;
+  --text-color: #cfcfcf;
+  --text-color-light: #dcdcdc;
+  --darkest: #e8e8e8;
+  --active-color: #00abe7;
+}
+.light-theme {
+  --plain-color: #cfcfcf;
+  --slight-off: #dcdcdc;
+  --background-color: #e8e8e8;
+  --text-color: #303030;
+  --text-color-light: #232323;
+  --darkest: #171717;
+  --active-color: #00abe7;
+}
+.button {
+  padding: 1em;
+  border-radius: 0.3em;
+  border: 0;
+  background-color: var(--slight-off);
+  color: var(--text-color);
+}
+.button:hover {
+  background-color: var(--plain-color);
+}

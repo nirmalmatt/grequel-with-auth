@@ -1,7 +1,7 @@
-import Home from "../pages/Home";
-import Activity from "../pages/Activity";
-import Video from "../pages/Video";
-import Controls from "../pages/Controls";
+import Home from "../pages/Home.svelte";
+import Activity from "../pages/Activity.svelte";
+import Video from "../pages/Video.svelte";
+import Controls from "../pages/Controls.svelte";
 
 const routes = {
   "/": Home,

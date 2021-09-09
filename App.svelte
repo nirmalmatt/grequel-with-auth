@@ -35,14 +35,8 @@
     }
   ];
   let activeNav = 0;
-  $: {
-    for (let nav in navItems) {
-      if (navItems[nav].path === $location) {
-        activeNav = nav;
-      }
-    }
-  }
   function navEventHandler(ind) {
+    activeNav = ind;
     push(navItems[ind].path);
   }
 </script>
